@@ -1,5 +1,5 @@
 # app.py
-
+from io import BytesIO
 import streamlit as st
 import base64
 from qr_code import generate_qr_code, replace_black_with_symbols, adjust_transparency, get_image_download_link
