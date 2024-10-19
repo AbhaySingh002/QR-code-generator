@@ -35,10 +35,10 @@ def main():
         unsafe_allow_html=True
     )
 
-    # Display the title with customized black color
+    
     st.markdown('<h1 class="title-text">QR Code Generator with Customization</h1>', unsafe_allow_html=True)
 
-    # Text input for the URL with a black label
+    
     url = st.text_input("Enter the URL to generate QR code:")
 
     if st.checkbox("Customize QR Code Color"):
