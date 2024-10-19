@@ -27,7 +27,7 @@ def main():
         /* Change the label color of the text input to black */
         label {{
             color: black;
-            font-size: 1.5em;
+            font-size: 2em;
         }}
         </style>
         """,
